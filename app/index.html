@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Ledgerline: a fast, read-only make.fun frontend. Live bounty board, bounty pages, leaderboards and profiles from make.fun's public API.">
+<title>Ledgerline — make.fun bounties</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/" aria-label="Ledgerline home">
+    <span class="brand-mark" aria-hidden="true">▤</span>
+    <span class="brand-name">Ledgerline</span>
+    <span class="brand-sub">make.fun, read live</span>
+  </a>
+  <nav class="topnav" aria-label="Main">
+    <a href="#/">Bounty board</a>
+    <a href="https://make.fun" rel="noopener">make.fun ↗</a>
+  </nav>
+</header>
+<main id="app" class="wrap" aria-live="polite"></main>
+<footer class="foot wrap">
+  <p>Ledgerline is an independent, read-only frontend. Every number on it comes straight from
+  make.fun's public API at the moment you look; pots are live and include entry fees paid in.
+  To enter a bounty, sign in at <a href="https://make.fun" rel="noopener">make.fun</a>.</p>
+</footer>
+</body>
+</html>
